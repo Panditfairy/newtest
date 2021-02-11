@@ -1,0 +1,16 @@
+1.take the head node data of LL in pivot and take pointer   ptr 
+2.create another linked list 
+3.insert pivot element in the newLL and take a new pointer   newptr->next= null
+4. while ptr is not null
+5. temp=ptr->data
+6.  if temp>pivot 
+	temp_ptr->data= temp
+	
+		if newptr->next=null
+			newptr->next=temp_ptr
+          		temp_ptr->next= null
+		else 
+			trackptr= newptr
+		 while temp_ptr->data > newptr->data
+		    trackptr
+		
